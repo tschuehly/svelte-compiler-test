@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My website</title>
+  <script type="module" src="/app.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Hello World
+      <script type="module">
+          import Component from "/app.js";
+          window.Component = new Component({target: document.body})
+      </script>
+    </div>
+  </div>
+</div>
+</body>
+</html>
